@@ -37,10 +37,10 @@ func initConfig(env string) *AppConfig {
 	var defaultConfig AppConfig
 	defaultConfig.Port = 8000
 	defaultConfig.Database.Driver = "mysql"
-	defaultConfig.Database.Address = "localhost"
+	defaultConfig.Database.Address = "dbbe5.c5mcub6x2b1y.ap-southeast-1.rds.amazonaws.com"
 	defaultConfig.Database.Port = 3306
-	defaultConfig.Database.Username = "todosadmin"
-	defaultConfig.Database.Password = "todos123"
+	defaultConfig.Database.Username = "admin"
+	defaultConfig.Database.Password = "admin123"
 
 	if env == "test" {
 		defaultConfig.Database.Name = "to_do_lists_test"

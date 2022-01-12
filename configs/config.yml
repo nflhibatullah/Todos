@@ -1,8 +1,8 @@
 port: 8000
 database:
   driver: "mysql" #possible value are mongodb or mysql
-  address: "127.0.0.1"
+  address: "dbbe5.c5mcub6x2b1y.ap-southeast-1.rds.amazonaws.com"
   port: 3306
-  username: "todosadmin"
-  password: "todos123"
+  username: "admin"
+  password: "admin123"
   name: "to_do_lists_test"
